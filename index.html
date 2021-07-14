@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jujuh Nanotech</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre Mim</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Olá,<br> Sou <span class="home__title-color">Julia</span><br> Software Developer</h1>
+
+                    <a href="https://api.whatsapp.com/send/?phone=557499990520&text&app_absent=0" class="button">Contato</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/juliaingrid" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/nanotecnologista" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://t.me/nanotecnologista" class="home__social-icon"><i class='bx bxl-telegram' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="perfil">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre Mim</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Me chamo Julia Ingrid</h2>
+                        <p class="about__text">Me chamo Júlia Ingrid, tenho 22 anos. Resido na cidade de São Paulo. Sou estudante
+                            de Análise e Desenvolvimento de Sistemas, no Instituto Federal da Bahia (IFBA),
+                            atualmente, cursando o primeiro semestre. 
+                            Sou apaixonada por tecnologia, especialmente por desenvolvimento de software. </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Sou iniciante em programação, no entanto já tenho contato com várias liguagens.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__Python">
+
+                            </div>
+                            <div>
+                                <!-- <span class="skills__percentage">20%</span> -->
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__">
+                                
+                            </div>
+                            <div>
+                                <!-- <span class="skills__percentage">85%</span> -->
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__">
+                                
+                            </div>
+                            <div>
+                                <!-- <span class="skills__percentage">65%</span> -->
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-copyright skills__icon'></i>
+                                <span class="skills__name">C</span>
+                            </div>
+                            <div class="skills__bar skills__">
+                                
+                            </div>
+                            <div>
+                                <!-- <span class="skills__percentage">85%</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projetos</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://github.com/nanotecnologista/botZapLivre"><img src="assets/img/bot.png" alt="WhatsApp Bot"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/nanotecnologista/Portfolio"><img src="assets/img/dev.png" alt="Portfólio"></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/nanotecnologista/Prova-Romilson"><img src="assets/img/c.png" alt="Prova Mais Recente"></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Jujuh Nanotech</p>
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a> -->
+                <a href="https://api.whatsapp.com/send/?phone=557499990520&text&app_absent=0" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://www.instagram.com/julya_bella/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
