@@ -329,6 +329,9 @@ img{
 }
 
 /* ===== WORK =====*/
+.work__img h3{
+  text-align: center;
+}
 .work__container{
   row-gap: 2rem;
 }
@@ -472,3 +475,4 @@ img{
     right: 10%;
   }
 }
+
